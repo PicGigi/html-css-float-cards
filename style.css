@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    color: rgb(255, 1, 107);
+    text-align: center;
+    padding-top: 50px;
+}
+
+main{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.descrizione{
+    text-align: center;
+    font-size: larger;
+    padding-top: 50px;
+}
+
+h4{
+    font-weight: lighter;
+}
+
+img{
+    height: 100px;
+    float: left;
+    margin-right: 10px;
+}
+
+span{
+    vertical-align: middle;
+}
+
+.person{
+    height: 100px;
+    float: left;
+    background-color: black;
+    color: white;
+    width: calc(33.3% - 2rem);
+    margin: 1rem;
+    line-height: 30px;
+    margin-top: 40px;
+}
+
+.person span:first-of-type{
+    font-size: 20px;
+    font-weight: bold;
+}
+.person :last-child{
+    color: rgb(0, 183, 255);
+}
